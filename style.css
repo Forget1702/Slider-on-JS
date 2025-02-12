@@ -3,12 +3,13 @@ body {
     background: #131313;
 }
 .slider {
-    margin: 150px 250px;
+    align-items: center;
+    margin: 120px 140px;
 }
 .text-city {
     font-family: 'Yeseva One';
     text-transform: uppercase;
-    color: #E3B873;
+    color: rgba(255, 255, 255, 0.3);
     font-size: 14px;
 }
 .text-project {
@@ -29,7 +30,7 @@ body {
 .par {
     font-family: 'Nunito Sans';
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
 }
 .slider__block_2 {
@@ -42,8 +43,9 @@ body {
 }
 .slider__cities {
     display: flex;
-    justify-content: flex-end;
-    gap: 55px;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 440px;
 }
 .slider__city {
     border: none;
@@ -64,7 +66,7 @@ body {
     justify-content: center;
 }
 .slider__description {
-    max-width: 600px;
+    max-width: 442px;
     margin-top: 50px;
 }
 .slider__block_3 {
@@ -74,13 +76,13 @@ body {
     margin-top: 42px;
 }
 .slider__info {
-    width: 300px;
-    padding: 20px 0 20px 0;
+    width: 200px;
+    padding: 15px 0 15px 0;
 }
 .slider__arrows {
     display: flex;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-right: 20px;
 }
 .slider__arrow {
@@ -92,7 +94,7 @@ body {
     position: relative;
     margin-top: 50px;
     width: 679px;
-    height: 482px;
+    height: 483px;
 }
 .slider__images .image {
     background-size: cover;
@@ -109,7 +111,7 @@ body {
     opacity: 1;
 }
 .image {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .slider__dots {
     display: flex;
